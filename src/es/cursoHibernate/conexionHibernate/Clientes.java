@@ -1,6 +1,6 @@
 package es.cursoHibernate.conexionHibernate;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 
 /* Anotaciones:
  * 	@Entity: Transforma la clase en una entidad para que hibernate sepa que esta clase va a representar una tabla de la base de datos
@@ -18,11 +18,11 @@ public class Clientes {
 	@Id
 	@Column(name="Id")
 	private int id;
-	@Column(name="nombre")
+	@Column(name="Nombre")
 	private String nombre;
-	@Column(name="apellidos")
+	@Column(name="Apellidos")
 	private String apellidos;
-	@Column(name="direccion")
+	@Column(name="Direccion")
 	private String direccion;
 	
 	
